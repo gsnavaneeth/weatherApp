@@ -1,0 +1,89 @@
+
+body{
+    background: #222;
+    font-family: 'Roboto';
+}
+.card{
+    width: 355px;
+    max-width: 470px;
+    background: linear-gradient(90deg, rgb(49, 5, 179) 0%, rgba(219, 7, 247, 0.692) 35%, rgba(2, 193, 231, 0.945) 100%);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px,35px;
+    text-align: center;
+    height: 450px;
+}
+button img{
+    width: 31px;
+    height: 32px;
+}
+.search{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    border-radius: 17px;
+    border: none;
+    text-align: inherit;
+    height: 29px;
+    width: 230px;
+    font-family: 'Roboto';
+    outline: none;
+}
+.search-button{
+    height: 32px;
+    border-radius: 36px;
+    border: none;
+    margin-left: 8px;
+    background-color: #fff;
+}
+.sky-condition{
+    width: 160px;
+    height: 155px;
+    padding-left: 5px;
+    margin-top: 7px;;
+}
+.temp1{
+    font-size: 24px;
+    margin-top: -30px;
+}
+h1{
+    margin-bottom: -11px;
+}
+.details{
+    display: flex;
+    text-align: unset;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+.humidity-png{
+    width: 40px;
+    height: 42px;
+    padding-top: 6px;
+}
+.wind-speed-png{
+    width: 43px;
+    height: 42px;
+    padding-left: 77px;
+    padding-top: 4px;
+
+}
+.wind-speed-values{
+    font-size: 12px;
+    margin-top: -11px;
+    margin-left: -16px;
+}
+.humidity-values{
+    font-size: 12px;
+    margin-top: -11px;
+    margin-left: -9px;
+}
+.wind-speed-measure{
+    margin-left: 4px;
+}
+.city{
+    font-size: 24px;
+}
